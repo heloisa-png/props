@@ -1,8 +1,7 @@
-// Arquivo: src/components/BotaoAcao.js
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
 
-// Componente de botão customizável via Props (texto, corFundo e função onPress)
+// Componente de botão customizável via Props 
 export default function BotaoAcao({ texto, corFundo = '#2563EB', onPress }) {
   return (
     <TouchableOpacity

@@ -15,10 +15,11 @@ export default function App() {
   // Estado da categoria selecionada
   const [categoriaAtiva, setCategoriaAtiva] = useState('Todos');
 
-  // Estado que guarda os IDs dos cursos matriculados
+  // guarda os IDs dos cursos matriculados
   const [idsMatriculados, setIdsMatriculados] = useState([]);
 
-  // Filtrando os cursos pela categoria selecionada
+  // filtra cursos pela categoria
+//usando operador ternario
   const cursosFiltrados = categoriaAtiva === 'Todos'
     ? LISTA_CURSOS
     : LISTA_CURSOS.filter(

@@ -2,7 +2,7 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-// Componente reutilizável de Cabeçalho que recebe 'titulo' e 'subtitulo' via Props
+// Componente reutilizável de Cabeçalho que recebe 'titulo' e 'subtitulo' 
 export default function Header({ titulo, subtitulo }) {
   return (
     <View style={styles.container}>
